@@ -13,10 +13,8 @@ env/
 Thumbs.db
 
 # --- Data ---
-data/raw/
-data/clean/
-data/labels/
-data/splits/
+raw_data/
+clean_data/
 
 # --- Models ---
 models/
@@ -38,3 +36,10 @@ runs/
 *.env
 secrets.json
 config_local.py
+
+
+*.pyc
+*.jsonl
+*.csv
+*.parquet
+*.log
