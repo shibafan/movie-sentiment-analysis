@@ -107,7 +107,7 @@ def main():
     
     leakage = (train_movies & val_movies) | (train_movies & test_movies) | (val_movies & test_movies)
     if leakage:
-        print(f"WARNING: Movie leakage found: {list(leakage)[:5]}")
+        print(f"Movie leakage {list(leakage)[:5]}")
     else:
         print("No movie leakage")
 

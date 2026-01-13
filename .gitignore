@@ -13,8 +13,7 @@ env/
 Thumbs.db
 
 # --- Data ---
-raw_data/
-clean_data/
+data/
 
 # --- Models ---
 models/
@@ -43,3 +42,10 @@ config_local.py
 *.csv
 *.parquet
 *.log
+
+# model artifacts
+models/
+*.pt
+*.bin
+*.safetensors
+*.ckpt
